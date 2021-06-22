@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA949E91268272DE0093244D /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA949E90268272DE0093244D /* RowView.swift */; };
 		FAA90C51267E67FA00F13BCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA90C50267E67FA00F13BCC /* AppDelegate.swift */; };
 		FAA90C53267E67FA00F13BCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA90C52267E67FA00F13BCC /* SceneDelegate.swift */; };
 		FAA90C55267E67FA00F13BCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA90C54267E67FA00F13BCC /* ContentView.swift */; };
 		FAA90C57267E67FA00F13BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA90C56267E67FA00F13BCC /* Assets.xcassets */; };
 		FAA90C5A267E67FA00F13BCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA90C59267E67FA00F13BCC /* Preview Assets.xcassets */; };
 		FAA90C5D267E67FA00F13BCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA90C5B267E67FA00F13BCC /* LaunchScreen.storyboard */; };
+		FAA90C65267E695D00F13BCC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA90C64267E695D00F13BCC /* Person.swift */; };
+		FAA90C67267E6B3D00F13BCC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA90C66267E6B3D00F13BCC /* DataManager.swift */; };
+		FAA90C69267E6BE700F13BCC /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA90C68267E6BE700F13BCC /* ContactList.swift */; };
+		FAA90C6B267E6C4000F13BCC /* DetailContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA90C6A267E6C4000F13BCC /* DetailContact.swift */; };
+		FAA90C6D267E6C7000F13BCC /* SectionContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA90C6C267E6C7000F13BCC /* SectionContactList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA949E90268272DE0093244D /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		FAA90C4D267E67FA00F13BCC /* ContactListSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA90C50267E67FA00F13BCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA90C52267E67FA00F13BCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		FAA90C59267E67FA00F13BCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAA90C5C267E67FA00F13BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA90C5E267E67FA00F13BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA90C64267E695D00F13BCC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FAA90C66267E6B3D00F13BCC /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		FAA90C68267E6BE700F13BCC /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		FAA90C6A267E6C4000F13BCC /* DetailContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContact.swift; sourceTree = "<group>"; };
+		FAA90C6C267E6C7000F13BCC /* SectionContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionContactList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				FAA90C50267E67FA00F13BCC /* AppDelegate.swift */,
 				FAA90C52267E67FA00F13BCC /* SceneDelegate.swift */,
 				FAA90C54267E67FA00F13BCC /* ContentView.swift */,
+				FAA90C68267E6BE700F13BCC /* ContactList.swift */,
+				FAA90C6A267E6C4000F13BCC /* DetailContact.swift */,
+				FA949E90268272DE0093244D /* RowView.swift */,
+				FAA90C6C267E6C7000F13BCC /* SectionContactList.swift */,
+				FAA90C64267E695D00F13BCC /* Person.swift */,
+				FAA90C66267E6B3D00F13BCC /* DataManager.swift */,
 				FAA90C56267E67FA00F13BCC /* Assets.xcassets */,
 				FAA90C5B267E67FA00F13BCC /* LaunchScreen.storyboard */,
 				FAA90C5E267E67FA00F13BCC /* Info.plist */,
@@ -145,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA90C6D267E6C7000F13BCC /* SectionContactList.swift in Sources */,
+				FAA90C69267E6BE700F13BCC /* ContactList.swift in Sources */,
+				FAA90C6B267E6C4000F13BCC /* DetailContact.swift in Sources */,
 				FAA90C51267E67FA00F13BCC /* AppDelegate.swift in Sources */,
+				FA949E91268272DE0093244D /* RowView.swift in Sources */,
+				FAA90C67267E6B3D00F13BCC /* DataManager.swift in Sources */,
 				FAA90C53267E67FA00F13BCC /* SceneDelegate.swift in Sources */,
+				FAA90C65267E695D00F13BCC /* Person.swift in Sources */,
 				FAA90C55267E67FA00F13BCC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,8 +310,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ContactListSwiftUIApp/Preview Content\"";
+				DEVELOPMENT_TEAM = X56KS4SF62;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ContactListSwiftUIApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -296,6 +322,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Nikita-Alekseev.ContactListSwiftUIApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,8 +333,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ContactListSwiftUIApp/Preview Content\"";
+				DEVELOPMENT_TEAM = X56KS4SF62;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ContactListSwiftUIApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,6 +345,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Nikita-Alekseev.ContactListSwiftUIApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
